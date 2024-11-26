@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cfff4376-348a-4163-ae4d-a726d98a3132)# ForoHub
+# ForoHub
 Challenge One: ForoHub desarrollado con Java 17 y spring boot 3, es una API en la que se puede acceder con un usuario para crear, elimiar, actualizar y obtener los topicos que se encuentran en ella, tambien se documento con springdoc.
 
 <image src="/img/app.png" alt="Imagen de la aplicacion funcion">
