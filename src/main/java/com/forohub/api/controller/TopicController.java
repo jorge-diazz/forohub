@@ -20,6 +20,7 @@ import java.net.URI;
 
 @RestController
 @RequestMapping("/topics")
+@SecurityRequirement(name = "bearer-key")
 public class TopicController {
     @Autowired
     private TopicRepository topicRepository;
