@@ -1,4 +1,4 @@
-/*package com.forohub.api.infra.security;
+package com.forohub.api.infra.security;
 
 import com.forohub.api.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,4 +15,4 @@ public class AuthenticationService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return userRepository.findByUsername(username);
     }
-}*/
+}
