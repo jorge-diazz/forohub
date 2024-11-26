@@ -6,5 +6,6 @@ CREATE TABLE topics (
     author VARCHAR(100),
     course VARCHAR(100),
     answers VARCHAR(100),
+    active TINYINT,
     primary key (id)
 );
